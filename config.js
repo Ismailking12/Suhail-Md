@@ -14,7 +14,7 @@ global.location="Lahore,Pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://ismailamir4897:<CHKFhkLBbuHUnq7V>@cluster0.xxkwj2r.mongodb.net/"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
